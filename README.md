@@ -1,0 +1,2 @@
+# spring-security-empleados-consumer
+spring-security-empleados-consumer , es un Microservicio desarrollado con Java Spring Boot , donde hace consumo via RestTemplate  hacia el servicio: spring-security-registro-empleados  , en donde para poder consumirlo debera de usar autenticacion : basic auth , y de esta manera realizar transacciones de registro de empleados de forma exitosa , caso contrario arrojara 401 por no tener permisos de acceso para realizar cada transaccion
